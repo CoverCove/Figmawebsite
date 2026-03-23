@@ -42,16 +42,8 @@
       <!-- Hero / banner -->
       <section class="hero" aria-labelledby="hero-title" id="home">
         <div class="hero-bg" aria-hidden="true">
-          <img
-            class="hero-bg-img hero-bg-img--left"
-            src="./assets/images/banner-1.png"
-            alt=""
-          />
-          <img
-            class="hero-bg-img hero-bg-img--right"
-            src="./assets/images/banner-illustration.png"
-            alt=""
-          />
+          <div class="hero-bg-art hero-bg-art--left" aria-hidden="true"></div>
+          <div class="hero-bg-art hero-bg-art--right" aria-hidden="true"></div>
         </div>
 
         <div class="container hero-inner">
@@ -74,22 +66,42 @@
 
           <div class="hero-media" aria-label="Featured comics">
             <div class="hero-media-card">
-              <img
-                class="hero-plus"
-                src="./assets/images/bintou-plus.png"
-                alt="Bintou plus artwork"
-              />
+              <div
+                class="art-placeholder art-placeholder--plus"
+                role="img"
+                aria-label="Bintou plus artwork placeholder"
+              >
+                Artwork
+              </div>
             </div>
 
             <div class="hero-mini-grid" role="list" aria-label="Comic highlights">
               <div class="mini-card" role="listitem">
-                <img src="./assets/images/comic3.png" alt="Comic preview 1" />
+                <div
+                  class="art-placeholder art-placeholder--mini"
+                  role="img"
+                  aria-label="Comic preview 1 placeholder"
+                >
+                  Preview 1
+                </div>
               </div>
               <div class="mini-card" role="listitem">
-                <img src="./assets/images/comic10.png" alt="Comic preview 2" />
+                <div
+                  class="art-placeholder art-placeholder--mini"
+                  role="img"
+                  aria-label="Comic preview 2 placeholder"
+                >
+                  Preview 2
+                </div>
               </div>
               <div class="mini-card" role="listitem">
-                <img src="./assets/images/comic8.png" alt="Comic preview 3" />
+                <div
+                  class="art-placeholder art-placeholder--mini"
+                  role="img"
+                  aria-label="Comic preview 3 placeholder"
+                >
+                  Preview 3
+                </div>
               </div>
             </div>
           </div>
@@ -108,19 +120,43 @@
 
           <div class="tile-grid" role="list" aria-label="Series tiles">
             <article class="tile" role="listitem">
-              <img src="./assets/images/betshadow.png" alt="Betshadow comic tile" />
+              <div
+                class="tile-art art-placeholder art-placeholder--tile"
+                role="img"
+                aria-label="Betshadow comic artwork placeholder"
+              >
+                Betshadow
+              </div>
               <h3 class="tile-title">Betshadow</h3>
             </article>
             <article class="tile" role="listitem">
-              <img src="./assets/images/bin1.png" alt="Bin1 comic tile" />
+              <div
+                class="tile-art art-placeholder art-placeholder--tile"
+                role="img"
+                aria-label="Bin1 comic artwork placeholder"
+              >
+                Bin1
+              </div>
               <h3 class="tile-title">Bin1</h3>
             </article>
             <article class="tile" role="listitem">
-              <img src="./assets/images/ghostface2.png" alt="Ghostface2 comic tile" />
+              <div
+                class="tile-art art-placeholder art-placeholder--tile"
+                role="img"
+                aria-label="Ghostface2 comic artwork placeholder"
+              >
+                Ghostface2
+              </div>
               <h3 class="tile-title">Ghostface2</h3>
             </article>
             <article class="tile" role="listitem">
-              <img src="./assets/images/ghostface.png" alt="Ghostface comic tile" />
+              <div
+                class="tile-art art-placeholder art-placeholder--tile"
+                role="img"
+                aria-label="Ghostface comic artwork placeholder"
+              >
+                Ghostface
+              </div>
               <h3 class="tile-title">Ghostface</h3>
             </article>
           </div>
@@ -148,11 +184,13 @@
       <section class="section section--handmockup" id="shop" aria-labelledby="hand-title">
         <div class="container hand-inner">
           <div class="hand-media" aria-hidden="true">
-            <img
-              class="hand-mockup"
-              src="./assets/images/handmockup-asset.png"
-              alt=""
-            />
+            <div
+              class="hand-mockup art-placeholder art-placeholder--hand"
+              role="img"
+              aria-label="Hand mockup artwork placeholder"
+            >
+              Hand mockup
+            </div>
           </div>
 
           <div class="hand-copy">

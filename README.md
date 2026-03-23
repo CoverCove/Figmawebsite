@@ -16,4 +16,5 @@ Then open:
 
 ## Assets
 
-Images are stored in `./assets/images/` (downloaded from the Figma file).
+This project is self-contained text/CSS/JS. If you later upload the PNG assets,
+ the image tags can be re-enabled to match the original Figma artwork.
