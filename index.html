@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bintou - Webpage</title>
+
+    <!-- Typography (fallbacks included in CSS) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oleo+Script:wght@700&family=Rubik+Microbe&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-row">
+        <div class="logo" aria-label="Bintou">
+          <span class="logo-mark">BINTOU</span>
+        </div>
+
+        <nav class="nav nav--primary" aria-label="Primary">
+          <a href="#about">About Bintou</a>
+          <a href="#newsletter">Newsletter</a>
+          <a href="#shop">Shop</a>
+        </nav>
+      </div>
+
+      <div class="container nav nav--secondary" aria-label="Secondary">
+        <a href="#home">Home</a>
+        <a href="#new">What’s new</a>
+        <a href="#series">Comics</a>
+      </div>
+    </header>
+
+    <main id="content">
+      <!-- Hero / banner -->
+      <section class="hero" aria-labelledby="hero-title" id="home">
+        <div class="hero-bg" aria-hidden="true">
+          <img
+            class="hero-bg-img hero-bg-img--left"
+            src="./assets/images/banner-1.png"
+            alt=""
+          />
+          <img
+            class="hero-bg-img hero-bg-img--right"
+            src="./assets/images/banner-illustration.png"
+            alt=""
+          />
+        </div>
+
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="hero-kicker" id="hero-title">
+              A series of illustrated versions to choose from that fits your natural
+              aesthetic.
+            </p>
+
+            <div class="hero-cta">
+              <a class="btn btn--script" href="#shop" role="button">Shop Now</a>
+              <a class="btn btn--outline" href="#series" role="button">Preview</a>
+            </div>
+
+            <p class="hero-body">
+              With monthly add-ons to the Standard pack, you can get a bundle of untold stories
+              for the price of 1!
+            </p>
+          </div>
+
+          <div class="hero-media" aria-label="Featured comics">
+            <div class="hero-media-card">
+              <img
+                class="hero-plus"
+                src="./assets/images/bintou-plus.png"
+                alt="Bintou plus artwork"
+              />
+            </div>
+
+            <div class="hero-mini-grid" role="list" aria-label="Comic highlights">
+              <div class="mini-card" role="listitem">
+                <img src="./assets/images/comic3.png" alt="Comic preview 1" />
+              </div>
+              <div class="mini-card" role="listitem">
+                <img src="./assets/images/comic10.png" alt="Comic preview 2" />
+              </div>
+              <div class="mini-card" role="listitem">
+                <img src="./assets/images/comic8.png" alt="Comic preview 3" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Series tiles -->
+      <section class="section section--series" id="series" aria-labelledby="series-title">
+        <div class="container">
+          <header class="section-head">
+            <h2 class="section-title" id="series-title">Bintou series</h2>
+            <p class="section-subtitle">
+              Pick your vibe and explore illustrated stories made for your aesthetic.
+            </p>
+          </header>
+
+          <div class="tile-grid" role="list" aria-label="Series tiles">
+            <article class="tile" role="listitem">
+              <img src="./assets/images/betshadow.png" alt="Betshadow comic tile" />
+              <h3 class="tile-title">Betshadow</h3>
+            </article>
+            <article class="tile" role="listitem">
+              <img src="./assets/images/bin1.png" alt="Bin1 comic tile" />
+              <h3 class="tile-title">Bin1</h3>
+            </article>
+            <article class="tile" role="listitem">
+              <img src="./assets/images/ghostface2.png" alt="Ghostface2 comic tile" />
+              <h3 class="tile-title">Ghostface2</h3>
+            </article>
+            <article class="tile" role="listitem">
+              <img src="./assets/images/ghostface.png" alt="Ghostface comic tile" />
+              <h3 class="tile-title">Ghostface</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Promotional strip -->
+      <section class="section section--promo" id="new" aria-labelledby="promo-title">
+        <div class="container promo-inner">
+          <div class="promo-copy">
+            <h2 class="promo-title" id="promo-title">Get 6 Issues for free!</h2>
+            <p class="promo-text">
+              With monthly add-ons to the Standard pack, you can get a bundle of untold stories for the
+              price of 1!
+            </p>
+          </div>
+
+          <div class="promo-actions">
+            <a class="btn btn--gold" href="#newsletter" role="button">Check our deals</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Handmockup CTA -->
+      <section class="section section--handmockup" id="shop" aria-labelledby="hand-title">
+        <div class="container hand-inner">
+          <div class="hand-media" aria-hidden="true">
+            <img
+              class="hand-mockup"
+              src="./assets/images/handmockup-asset.png"
+              alt=""
+            />
+          </div>
+
+          <div class="hand-copy">
+            <h2 class="hand-title" id="hand-title">
+              Check out the Series on Kindle, Ipad and more
+            </h2>
+            <p class="hand-body">
+              With monthly add-ons to the Standard pack, you can get a bundle of untold stories for
+              the price of 1
+            </p>
+
+            <a class="btn btn--cta" href="#series" role="button">Find out more</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter -->
+      <section class="section section--newsletter" id="newsletter" aria-labelledby="newsletter-title">
+        <div class="container newsletter-inner">
+          <div class="newsletter-copy" id="about">
+            <h2 class="newsletter-title" id="newsletter-title">Newsletter</h2>
+            <p class="newsletter-text">
+              Sign up for occasional info and news by Bode comics
+            </p>
+          </div>
+
+          <form class="newsletter-form" id="newsletter-form">
+            <label class="sr-only" for="email">Your email</label>
+            <input
+              id="email"
+              name="email"
+              class="newsletter-input"
+              type="email"
+              placeholder="Your email"
+              autocomplete="email"
+              required
+            />
+            <button class="btn btn--outline btn--small" type="submit">Preview</button>
+          </form>
+
+          <p class="form-note" id="form-note" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" aria-label="Footer">
+      <div class="container footer-grid">
+        <section class="footer-col">
+          <h3 class="footer-title">About Bode</h3>
+          <span class="footer-link">Stores near you</span>
+          <span class="footer-link">FAQ’s</span>
+          <span class="footer-link">About Bode comics</span>
+          <span class="footer-link">Contact us</span>
+        </section>
+
+        <section class="footer-col">
+          <h3 class="footer-title">About Bintou</h3>
+          <span class="footer-link">Online store</span>
+          <span class="footer-link">New comics</span>
+        </section>
+
+        <section class="footer-col">
+          <h3 class="footer-title">More</h3>
+          <span class="footer-link">Donate to Bintou’s</span>
+          <span class="footer-link">Shipping/Delivery</span>
+          <span class="footer-link">Developing comics</span>
+          <span class="footer-link">Developer’s notes</span>
+        </section>
+
+        <section class="footer-col footer-brand">
+          <div class="footer-logo-mark" aria-hidden="true">BINTOU</div>
+          <p class="footer-brand-text">Illustrated stories, made to match your natural aesthetic.</p>
+        </section>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
